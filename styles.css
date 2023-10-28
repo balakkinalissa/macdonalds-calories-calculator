@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: rgb(31, 47, 219);
+    color: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    padding: 10px 200px;
+    color: blue;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 24px;
+    padding: 10px 200px;
+    font-style: italic;
+}
+
+h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    padding: 10px 200px;
+}
+
+h4 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    padding: 10px 200px;
+    width: 30%;
+    color: darkgray;
+}
+
+p {
+    margin-bottom: 10px;
+    padding: 10px 200px;
+}
+
+form {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+     padding: 10px 0px;
+}
+
+label {
+    display: block;
+}
+
+input[type="number"],
+select {
+    width: 200px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+input[type="checkbox"] {
+    margin-left: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #dad7d7;
+    color: rgb(0, 0, 0);
+    border: none;
+    cursor: pointer;
+    width: 30%;
+}
+
+button:hover {
+    background-color: #000000;
+    color: #f2f2f2;
+}
+
+#result {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+input[type="number"]:focus,
+select:focus {
+    outline: none;
+    background-color: #e6e6e6;
+    padding: 10px 20px;
+}
+
+.bg-pink {
+    width: 65%;
+    color: black;
+    background-color: white;
+    padding: 10px 20px;
+    align-content: center;
+}
